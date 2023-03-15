@@ -47,7 +47,7 @@ public class Main extends TelegramLongPollingBot {
             sendImage("level-1", chatId);
 
             // Send message
-            SendMessage message = createMessage("Ґа-ґа-ґа!\n" +
+            SendMessage message = createMessage("Ґа-ґа-ґа! \n" +
                     "Вітаємо у боті біолабораторії «Батько наш Бандера».\n" +
                     "\n" +
                     "Ти отримуєш гусака №71\n" +
@@ -161,7 +161,7 @@ public class Main extends TelegramLongPollingBot {
                 // Send message
                 SendMessage message = createMessage("*Вітаємо на останньому рівні! Твій гусак - готова біологічна зброя - бандерогусак.*\n" +
                         "Баланс: 50 монет. \n" +
-                        "Тепер ти можеш придбати Джавелін і глушити чмонь");
+                        "Тепер ти можеш придбати Джавелін і глушити орків");
                 message.setChatId(chatId);
 
 

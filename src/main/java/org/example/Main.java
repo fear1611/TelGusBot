@@ -182,7 +182,7 @@ public class Main extends TelegramLongPollingBot {
                 sendImage("final", chatId);
 
                 // Send message
-                SendMessage message = createMessage("*Джавелін твій. Повний вперед!*");
+                SendMessage message = createMessage("*Джавелін твій. Повний вогонь!*");
                 message.setChatId(chatId);
 
                 sendApiMethodAsync(message);

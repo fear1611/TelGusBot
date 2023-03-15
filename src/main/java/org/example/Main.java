@@ -1,5 +1,7 @@
 package org.example;
 
+//gfdg
+
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
 import org.telegram.telegrambots.meta.api.methods.send.SendAnimation;
@@ -17,7 +19,7 @@ import java.util.*;
 
 public class Main extends TelegramLongPollingBot {
     //FearGusBot
-    //6281638721:AAFI9WoAxoUgFW0JIW-AawmCiEiM_LpQZxI
+    //6281638721:AAFI9WoAxoUgFW0JIW-AawmCiEiM_LpQZxI_1
 
     private Map<Long,  Integer> levels = new HashMap<>();
 

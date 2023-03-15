@@ -85,7 +85,8 @@ public class Main extends TelegramLongPollingBot {
 
         if (update.hasCallbackQuery()) {
             if (update.getCallbackQuery().getData().equals("level_1_task") && getLevel(chatId) == 1) {
-                //Increase level
+                //Increase
+                //level
                 setLevel(chatId, 2);
 
                 //Send Image
